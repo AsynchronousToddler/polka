@@ -99,4 +99,4 @@ class Polka extends Router {
 	}
 }
 
-module.exports = opts => new Polka(opts);
+module.exports = Polka;
